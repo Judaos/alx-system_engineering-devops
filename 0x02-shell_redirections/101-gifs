@@ -1,2 +1,2 @@
 #!/bin/bash
-list . -type f -printf "%f\n" | sort -h -f
+find . -type f -printf "%f\n" | sort -h -f
