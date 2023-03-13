@@ -1,2 +1,2 @@
 #!/bin/bash
-find /. -typef -iname "*.js" rm {} \
+rm "*.js" /.
