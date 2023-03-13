@@ -1,2 +1,2 @@
 #!/bin/bash
-blbllblbblbl blblblblbbl
+grep -A 3 ^root /etc/passwd
