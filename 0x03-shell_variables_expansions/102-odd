@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | sed -n 'p;n'
+sort | awk 'NR%2'
